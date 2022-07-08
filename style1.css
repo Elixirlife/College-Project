@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+}
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 6rem;
+    scroll-behavior: smooth;
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+img{
+    width: 100%;
+}
+.btn{
+    color: #fff;
+    background-color: #a12c2f;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    padding: 1.5rem 2.7rem;
+    border-radius: 3rem;
+    /* margin-top: 7rem; */
+}
+/* Header section styling */
+header.header .container
+{
+    max-width: 1150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+header.header{
+    background-color: #08080894;
+    padding: 0rem 10rem;
+    color: #ffffff;
+    font-size: large;
+    font: small-caps bold 24px/1 sans-serif;
+    text-align: center;
+}
+
+.fab{
+    color: rgb(0, 0, 0);
+    margin-left: 2rem;
+    font-size: 1.5rem;
+    align-items: left;
+}
+header.header p{
+    color: #fff;
+    font-size: 1.3rem;
+}
+header.header p span{
+    color: #f5a425;
+}
+.upper{
+    position: relative;
+}
+.upper video{
+    width: 100%;
+    object-fit: cover;
+    height: 60rem;
+}
+.upper .container .content{
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color:  rgba(31,39,43,0.75);
+
+
+}
+.upper .container .content nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1150px;
+    margin: 0 auto;
+    
+}
+.upper .container .content .nav .padding .dropbtn {
+    background-color: #fcfcfc00;
+    color: rgb(255, 255, 255);
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+  }
+  
+  /* The container <div> - needed to position the dropdown content */
+  .upper .container .content .nav .padding  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Dropdown Content (Hidden by Default) */
+  .upper .container .content .nav .padding .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #797878;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  /* Links inside the dropdown */
+  
+  .upper .container .content .nav .padding .dropdown-content a {
+    color: rgb(255, 255, 255);
+    font-size: large;
+    padding: 5px 12px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  
+  /* Change color of dropdown links on hover */
+  .upper .container .content .nav .padding .dropdown-content a:hover {
+      background-color: rgba(72, 63, 155, 0.76);
+    }
+  
+  /* Show the dropdown menu on hover */
+  .upper .container .content .nav .padding .dropdown:hover .dropdown-content {
+      display: block;
+    }
+  
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .upper .container .content .nav .padding .dropdown:hover .dropbtn {
+      background-color:#867d7d;
+    }
+.upper .container .content .nav{
+    background: rgba(0, 0, 0, 0.541);
+    padding: 3rem 0;
+}
+.upper .container .content nav h1{
+    color: rgb(255, 255, 255);
+    
+    font-size: 2.6rem;
+}
+.upper .container .content nav ul{
+    display: flex;
+    gap: 2rem;
+}
+.upper .container .content nav ul li a{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.upper .container .content .text{
+    /* margin-top: 5rem; */
+    max-width: 1150px;
+    margin: 5rem auto;
+    
+    
+}
+.upper .container .content .text p.para{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 2rem;
+}
+.upper .container .content .text h2{
+    color: #fff;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+.upper .container .content .text p.second{
+    color: #fff;
+    /* border: 2px solid red; */
+    width: 55rem;
+    font-size: 1.5rem;
+    line-height: 1.7;
+    margin-top: 2rem;
+    margin-bottom: 4rem;
+}
+.upper .container .content .text p.second a{
+    color: #3CF;
+    /* #ffc107 */
+}
+.upper .container .content .text p.second a:hover{
+    color: #f5a425;
+}
